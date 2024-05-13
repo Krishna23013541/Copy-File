@@ -24,20 +24,18 @@ Increase the maximum number of rows to display the entire DataFrame.
 ## PROGRAM:
 `````
 #To write a python program for reading content from a CSV file.
-#Developed by: KRISHNA KUMAR R
-#Register Number: 212223230107
+#Developed by KRISHNA KUMAR
+#Reg no:212223230107
 
-import pandas as pd
-df = pd.read_csv('nba.csv')
-print(df.head(10))
-print(df.tail())
-print("Number of rows:",len(df.axes[0]))
-print("Number of columns:",len(df.axes[1]))
+with open("text.txt",'r') as fp:
+    msg1=fp.read()
+with open("copy.txt",'w') as fp1:
+    fp1.write(msg1)
 ```````
 
 ### OUTPUT:
-
-![329156316-f0a48c59-392e-4aa2-be43-326dca874b38](https://github.com/Krishna23013541/Copy-File/assets/149557764/53450517-f9e1-4146-9824-5773d208ca6f)
+![WhatsApp Image 2024-05-13 at 21 17 10_e1805d64](https://github.com/Krishna23013541/Copy-File/assets/149557764/0dec3692-0b8c-465c-b923-f6f009e5f8b2)
+![WhatsApp Image 2024-05-13 at 21 17 10_fca2bb91](https://github.com/Krishna23013541/Copy-File/assets/149557764/01adc4e9-874c-44b7-9259-19bfab32417f)
 
 ## RESULT:
 Thus the program is written to copy the contents from one file to another file.
